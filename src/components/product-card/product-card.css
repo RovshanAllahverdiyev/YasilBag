@@ -1,0 +1,9 @@
+.single__product {
+    background-color: #141124;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.single__product:hover {
+    box-shadow: 5px 5px 10px 5px #f5b70a;
+}
