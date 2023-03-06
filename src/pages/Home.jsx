@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import ChooseUs from '../components/choose-us/ChooseUs'
 
 import Header from '../components/header/Header'
 import HeroSlider from '../components/hero-slider/HeroSlider'
@@ -11,6 +12,7 @@ function Home() {
         <Header />
         <HeroSlider />
         <PopularMenu />
+        <ChooseUs />
    </Fragment>
   )
 }

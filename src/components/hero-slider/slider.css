@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 
-.btn:hover {
+button:hover {
     color: #f76e11;
     cursor: pointer;
 }

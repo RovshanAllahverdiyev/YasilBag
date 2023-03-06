@@ -32,11 +32,11 @@ function ProductCard(props) {
       <h6>{title}</h6>
 
       <div className=" d-flex align-items-center justify-content-between">
-        <span className="price">
+        <span className="price d-flex align-items-center">
           {" "}
           Qiymət : <span>{price}</span> Azn
         </span>
-        <span>
+        <span className='shopping__icon'>
           <i class="ri-shopping-cart-line"></i>
         </span>
       </div>

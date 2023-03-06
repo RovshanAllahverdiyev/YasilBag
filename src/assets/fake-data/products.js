@@ -14,27 +14,27 @@ import salad from "../images/slider2.png";
 
 export const popularMenuFood = [
   {
-    id: "01",
+    id: 1,
     title: "Vegetable Salad",
     price: 25,
     imgUrl: fastFood03,
   },
   {
-    id: "02",
+    id: 2,
     title: "Chicken",
     price: 250,
     imgUrl: fastFood04,
   },
 
   {
-    id: "03",
+    id: 3,
     title: "Whipped Cream",
     price: 45,
     imgUrl: dessert02,
   },
 
   {
-    id: "04",
+    id: 4,
     title: "Pizza",
     price: 75,
     imgUrl: pizzaImg01,
@@ -43,31 +43,31 @@ export const popularMenuFood = [
 
 export const fastFoodProducts = [
   {
-    id: "05",
+    id: "5",
     title: "Burger",
     price: 95,
     imgUrl: fastFood04,
   },
   {
-    id: "06",
+    id: "6",
     title: "Chicken",
     price: 250,
     imgUrl: fastFood04,
   },
   {
-    id: "07",
+    id: "7",
     title: "Grill Chicken",
     price: 195,
     imgUrl: fastFood04,
   },
   {
-    id: "08",
+    id: "8",
     title: "Barbeque",
     price: 275,
     imgUrl: fastFood04,
   },
   {
-    id: "09",
+    id: "9",
     title: "Pizza",
     price: 275,
     imgUrl: fastFood04,

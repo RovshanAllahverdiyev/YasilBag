@@ -2,10 +2,11 @@
     width: 100%;
     height: 100%;
     line-height: 80px;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 9;
+    background-color: #141124;
 }
 
 .navigation {
@@ -42,7 +43,7 @@
     padding: 10px 25px;
     height: 35px;
     border-radius: 50px;
-    background-color: #1f1124;
+    background-color: #0a071a;
 }
 
 .custom__search input {

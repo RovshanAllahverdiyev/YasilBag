@@ -6,13 +6,14 @@ import {
 } from "../../assets/fake-data/products";
 import ProductCard from "../product-card/ProductCard";
 
+
 function PopularMenu() {
   return (
     <section className='pt-0'>
       <Container>
         <Row>
           <Col lg="12" className="mb-5">
-            <h2>Polular food menu</h2>
+            <h2>Popular food menu</h2>
           </Col>
 
           {popularMenuFood.map((item) => (
