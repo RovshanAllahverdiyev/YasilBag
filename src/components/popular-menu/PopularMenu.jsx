@@ -18,7 +18,7 @@ function PopularMenu() {
 
           {popularMenuFood.map((item) => (
             <Col lg="3" key={item.id}>
-              <ProductCard item={item} />
+              <ProductCard className="mb-5" item={item} />
             </Col>
           ))}
         </Row>

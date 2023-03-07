@@ -15,6 +15,7 @@
 body,
 html {
   background-color: #0a071a;
+  scroll-behavior: smooth;
 }
 
 section,
