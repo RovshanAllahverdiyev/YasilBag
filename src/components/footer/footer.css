@@ -48,3 +48,26 @@
 .dev__instagram:hover {
     color: #f76e11;
 }
+
+@media only screen and (max-width: 992px) {
+    .link__item a {
+        font-size: 0.8rem;
+    }
+
+    .link__item {
+        font-size: 0.8rem;
+    }
+
+    .logo p {
+        font-style: 0.8rem;
+    }
+
+    .footer__bottom p {
+        font-style: 0.7rem;
+    }
+
+    .footer__bottom {
+        padding: 15px 0px ;
+    }
+}
+

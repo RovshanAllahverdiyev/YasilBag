@@ -47,20 +47,7 @@ function Footer() {
       <div className="footer__top">
         <Container>
           <Row>
-            <Col lg="4" md="4" sm="6">
-              <div className="logo">
-                <h2 className="d-flex align-items-center gap-1 mb-4">
-                  <span>
-                    <i class="ri-restaurant-2-line"></i>
-                  </span>{" "}
-                  Yasil Bag
-                </h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                  facere voluptas est dolorum quas velit?
-                </p>
-              </div>
-            </Col>
+            
 
             <Col lg="2" md="4" sm="6">
               <h5 className="footer__link-title">Quick Links</h5>

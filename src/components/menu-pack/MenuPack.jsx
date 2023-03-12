@@ -8,8 +8,8 @@ import './menu-pack.css'
 
 function MenuPack() {
 
-    const [ filter, setFilter ] = useState('RICE-MENU')
-    const [products, setProducts ] = useState(riceMenuProducts) 
+    const [ filter, setFilter ] = useState('FAST-FOOD')
+    const [products, setProducts ] = useState(fastFoodProducts) 
 
     useEffect(() => {
 
@@ -57,7 +57,7 @@ function MenuPack() {
 
                     {
                         products.map(item => (
-                            <Col lg='3' className='mb-4' key={item.id}>
+                            <Col lg='3' md='4' sm='6' xs='6' className='mb-4' key={item.id}>
                                 <ProductCard item={item} />
 
                             </Col>

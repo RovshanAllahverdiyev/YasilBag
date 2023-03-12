@@ -14,7 +14,7 @@ function Home() {
         <Header />
         <HeroSlider />
         <PopularMenu />
-        <ChooseUs />
+        {/* <ChooseUs /> */}
         <MenuPack />
        <Footer />
    </Fragment>

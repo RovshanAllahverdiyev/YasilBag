@@ -2,6 +2,7 @@
     background-color: #141124;
     border-radius: 10px;
     cursor: pointer;
+    animation:  animate 1s ease-in;
 }
 
 .single__product:hover {
@@ -28,11 +29,12 @@
 
 .price {
     color: #fff;
+
 }
 
 .price span {
     color: #f5b70a;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
@@ -46,3 +48,27 @@
     justify-content: center;
     cursor: pointer;
 }
+
+@keyframes  animate  {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .product__content h6 {
+        font-size: 0.9rem;
+    }
+
+    .price {
+        font-size: 0.8rem ;
+    }
+
+    .price span {
+        font-size: 0.8rem;
+    }
+} 
