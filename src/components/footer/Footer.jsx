@@ -18,7 +18,7 @@ const footerQuickLinks = [
     url: "#",
   },
   {
-    display: "Recioes",
+    display: "Recipes",
     url: "#",
   },
   {
